@@ -1117,20 +1117,6 @@ function library:Init(key)
             local label = Instance.new("TextLabel")
             local labelPadding = Instance.new("UIPadding")
 
-            label.Name = "label"
-            label.Parent = page
-            label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-            label.BackgroundTransparency = 1.000
-            label.Position = UDim2.new(0, 0, 0, 0)
-            label.Size = UDim2.new(0, 396, 0, 24)
-            label.Font = Enum.Font.Code
-            label.Text = text
-            label.TextColor3 = Color3.fromRGB(190, 190, 190)
-            label.TextSize = 14.000
-            label.TextWrapped = true
-            label.TextXAlignment = Enum.TextXAlignment.Left
-            label.RichText = true
-
             labelPadding.Name = "pagePadding"
             labelPadding.Parent = page
             labelPadding.PaddingBottom = UDim.new(0, 6)
