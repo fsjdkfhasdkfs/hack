@@ -1121,7 +1121,7 @@ function library:Init(key)
             label.Parent = page
             label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             label.BackgroundTransparency = 1.000
-            label.Position = UDim2.new(0.00499999989, 0, 0, 0)
+            label.Position = UDim2.new(0, 0, 0, 0)
             label.Size = UDim2.new(0, 396, 0, 24)
             label.Font = Enum.Font.Code
             label.Text = text
