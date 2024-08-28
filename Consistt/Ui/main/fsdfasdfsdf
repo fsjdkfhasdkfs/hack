@@ -1117,13 +1117,6 @@ function library:Init(key)
             local label = Instance.new("TextLabel")
             local labelPadding = Instance.new("UIPadding")
 
-            labelPadding.Name = "pagePadding"
-            labelPadding.Parent = page
-            labelPadding.PaddingBottom = UDim.new(0, 6)
-            labelPadding.PaddingLeft = UDim.new(0, 12)
-            labelPadding.PaddingRight = UDim.new(0, 6)
-            labelPadding.PaddingTop = UDim.new(0, 6)
-
             if alignment:lower():find("le") then
                 label.TextXAlignment = Enum.TextXAlignment.Left
             elseif alignment:lower():find("cent") then
